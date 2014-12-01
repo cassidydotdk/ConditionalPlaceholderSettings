@@ -1,0 +1,17 @@
+bin/
+obj/
+*.suo
+*.csproj.user
+
+/lib/**/*.*
+!/lib/Sitecore/readme.md
+
+# I'm not going to check the test website in - just some key config files
+/src/ConditionalPlaceholderSettings.Web/**/*.*
+/src/ConditionalPlaceholderSettings.Web/Data
+!/src/ConditionalPlaceholderSettings.Web/readme.md
+!/src/ConditionalPlaceholderSettings.Web/App_Config/Include/ConditionalPlaceholderSettings.config
+!/src/ConditionalPlaceholderSettings.Web/App_Config/Include/TestSite.config
+
+# Just some test rules - you don't need them
+/src/Items/master/sitecore/system/Settings/Rules/Conditional Placeholder Settings/Rules/*.item
